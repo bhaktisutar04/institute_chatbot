@@ -3,7 +3,8 @@ import pandas as pd
 from dotenv import load_dotenv #load .env file into environment
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_huggingface import HuggingFaceEmbeddings
+# from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_pinecone import PineconeVectorStore
 from pinecone import Pinecone
 from groq import Groq
@@ -127,3 +128,4 @@ Answer:
     )
 
     return response.choices[0].message.content
+
