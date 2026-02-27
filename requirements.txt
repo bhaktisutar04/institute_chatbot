@@ -1,0 +1,11 @@
+streamlit
+pandas
+openpyxl
+python-dotenv
+langchain
+langchain-text-splitters
+langchain-community
+langchain-pinecone
+pinecone
+sentence-transformers
+groq
