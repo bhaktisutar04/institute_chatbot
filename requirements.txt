@@ -8,5 +8,5 @@ langchain-pinecone
 pinecone-client
 groq
 sentence-transformers
-openpyxl
 torch
+openpyxl
